@@ -1,6 +1,7 @@
 # LAB01
 ## 01_greeting [01](src/lab01/01_greeting.py)
-![программа](images/lab01/01_прога.jpg)
+![программа]![01_прога](https://github.com/user-attachments/assets/ffece3a3-139a-4682-8915-9379124b3c00)
+
 ![вывод](images/lab01/01_вывод.png)
 ## 02_sum_avg [02](src/lab01/02_sum_avg.py)
 ![программа](images/lab01/02_прога.png)
