@@ -1,6 +1,7 @@
 # LAB01
 ## 01_greeting 
 программа
+![01_прога](./images/lab01/01_вывод.png)
 ![01_прога](https://github.com/user-attachments/assets/24d1866b-cab5-48cc-91c6-08a7386a0f21)
 
 
