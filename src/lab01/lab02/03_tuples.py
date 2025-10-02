@@ -24,3 +24,12 @@ def format_record(rec: tuple[str, str, float]) -> str:
     return f'{right_fio}, гр. {group.strip()}, GPA {gpa:.2f}'
 
 print(format_record(("Петров Пётр", "IKBO-12", 5.0)))
+print(format_record(("Иванов Иван Иванович", "BIVT-25", 4.6)))
+print(format_record(("  сидорова  анна   сергеевна ", "ABB-01", 3.999)))
+
+
+
+### Тест-кейсы (минимум)
+# - `("Иванов Иван Иванович", "BIVT-25", 4.6)` → `"Иванов И.И., гр. BIVT-25, GPA 4.60"`
+# - `("Петров Пётр", "IKBO-12", 5.0)` → `"Петров П.П., гр. IKBO-12, GPA 5.00"`
+# - `("  сидорова  анна   сергеевна ", "ABB-01", 3.999)` → `"Сидорова А.С., гр. ABB-01, GPA 4.00"`
