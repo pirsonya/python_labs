@@ -1,9 +1,10 @@
 #min_max
-a=[3, -1, 5, 5, 0]
+
 #b=[42]
 #c=[-5, -2, -9]
 #d=[]
 #e=[1.5, 2, 2.0, -3.1]
+a=[3, -1, 5, 5, 0]
 def min_max(nums: list[float | int]) -> tuple[float | int, float | int]:
     sp=[]
     if len(nums)==0:
@@ -18,10 +19,11 @@ print(min_max(a))
 #print(min_max(d))
 
 #unique_sorted
-a=[3, 1, 2, 1, 3]
+## set-список->множество->уд.дубликатов
 #b=[]
 #c=[-1, -1, 0, 2, 2]
 #d=[1.0, 1, 2.5, 2.5, 0]
+a=[3, 1, 2, 1, 3]
 def unique_sorted(nums: list[float | int]) -> list[float | int]:
     s=sorted(list(set(nums)))
     return s
@@ -32,11 +34,11 @@ print(unique_sorted(a))
 
 
 #flatten
-a=[[1, 2], [3, 4]]
+
 # b=([1, 2], (3, 4, 5))
 # c=[[1], [], [2, 3]]
 # d=[[1, 2], "ab"]
-
+a=[[1, 2], [3, 4]]
 def flatten(mat: list[list | tuple]) -> list:
     sp=[]
     for el in mat:

@@ -1,6 +1,7 @@
 def format_record(rec: tuple[str, str, float]) -> str:
     fio, group, gpa = rec
 #проверка: фио НЕ пустое, группа НЕ пустая
+## strip-удаление пробелов в нач и конц
     if len(str(fio).strip())<1 or len(str(group).strip())<1:
         raise ValueError
 #проверка: GPA введен корректно
@@ -16,6 +17,7 @@ def format_record(rec: tuple[str, str, float]) -> str:
     if len(right_fio_part)==3:
         initials = f"{right_fio_part[1][0]}.{right_fio_part[2][0]}."
         res=initials.upper()
+## title-кажд слово нач с загл букв
         right_fio = f'{right_fio_part[0].title()} {res}'
     if len(right_fio_part)==2:
         initials = f'{right_fio_part[1][0]}.{right_fio_part[1][0]}.'

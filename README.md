@@ -7,8 +7,8 @@
 
 ## ex. B text_stats
 ### программа
-![alt text](images/lab03/text_stats_прога.png)
+![alt text](images/lab03/программа.png)
 ### вывод
-![alt text](images/lab03/text_stats_вывод.png)
+![alt text](images/lab03/вывод.png)
 
 
