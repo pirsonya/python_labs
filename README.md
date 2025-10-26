@@ -23,3 +23,15 @@
 
 ### вывод
 ![alt text](<images/lab04/вывод ex03.png>)
+
+# LAB №5
+
+## json_csv
+
+### программа
+![alt text](<images/lab05/прога json_cvs.png>)
+
+## csv_xlsx
+
+### программа
+[text](src/lab05/cvs_xlsx.py)
