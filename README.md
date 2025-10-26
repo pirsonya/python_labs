@@ -34,4 +34,5 @@
 ## csv_xlsx
 
 ### программа
-[text](src/lab05/cvs_xlsx.py)
+![alt text](<images/lab05/прога cvs_xlsx.png>)
+
