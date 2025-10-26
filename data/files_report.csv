@@ -1,0 +1,4 @@
+file,word,count
+data/a.txt,мир,1
+data/a.txt,привет,1
+data/b.txt,привет,2
