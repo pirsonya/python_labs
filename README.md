@@ -10,12 +10,11 @@
 ## json_csv
 
 ### программа
-![alt text](<images/lab05/прога json_cvs.png>)
-
+![alt text](images/lab05/json_csv.png)
 ## csv_xlsx
-
 ### программа
-![alt text](<images/lab05/прога cvs_xlsx.png>)
+![alt text](images/lab05/cvs_xlsx.png)
+
 # LAB 06
 ## cli_text
 ### прога
