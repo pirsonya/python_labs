@@ -63,38 +63,6 @@ def freq_from_txt(text: str) -> dict[str, int]:
 def sort_w_counts(freq: dict[str,int]) -> list[tuple[str,int]]:
     return top_n(freq, len(freq))
 
-from pathlib import Path
-import csv
-from typing import Iterable, Sequence
-# from lib.text import normalize, tokenize, top_n, count_freq
-
-def read_text(path: str | Path, encoding: str = "utf-8") -> str:
-    p = Path(path)
-    return p.read_text(encoding=encoding)
-
-def write_csv(rows: Iterable[Sequence], path: str | Path,
-              header: tuple[str, ...] | None = None) -> None:
-    p = Path(path)
-    rows = list(rows)
-    if rows:
-        first_len_row = len(rows[0])
-        for i, row in enumerate(rows):
-            if len(row) != first_len_row:
-                raise ValueError
-    
-    with p.open("w", newline="", encoding="utf-8") as f:
-        w = csv.writer(f)
-        if header is not None:
-            w.writerow(header)
-        for r in rows:
-            w.writerow(r)
-
-def freq_from_txt(text: str) -> dict[str, int]:
-    tokens = tokenize(normalize(text))
-    return count_freq(tokens)
-
-def sort_w_counts(freq: dict[str, int]) -> list[tuple[str, int]]:
-    return top_n(freq, len(freq))
 
 # Тест-кейс A: Один файл
 def test_case_a():

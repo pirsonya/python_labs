@@ -79,7 +79,7 @@ def main():
         for word, count in top_5:
             print(f"{word}:{count}")
     except FileNotFoundError:
-        print(f"Ошибка: файл '{input_file}' не найден")
+        print(f"файл '{input_file}' не найден")
     except Exception as e:
         print(f"Ошибка: {e}")
 if __name__ == "__main__":

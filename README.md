@@ -1,38 +1,12 @@
-# LAB №4
-
-## io_txt_csv
-
-### программа
-![alt text](<images/lab04/прога io_txt_csv.png>)
-
-### вывод
-![alt text](<images/lab04/вывод io_txt_csv.png>)
-
-## text_report
-
-### программа
-![alt text](<images/lab04/прога text_report.png>)
-
-### вывод
-![alt text](<images/lab04/вывод text_report.png>)
-
-## доп задание
-
-### программа
-![alt text](<images/lab04/прога 03.png>)
-
-### вывод
-![alt text](<images/lab04/вывод ex03.png>)
-
-# LAB №5
-
-## json_csv
-
-### программа
-![alt text](<images/lab05/прога json_cvs.png>)
-
-## csv_xlsx
-
-### программа
-![alt text](<images/lab05/прога cvs_xlsx.png>)
-
+# LAB 01
+[text](src/lab01/README1.md)
+# LAB 02
+[text](src/lab02/README_2.md)
+# LAB 03
+[text](src/lab03/README_3.md)
+# LAB 04
+[text](src/lab04/README_4.md)
+# LAB 05
+[text](src/lab05/README_5.md)
+# LAB 06
+[text](src/lab06/README_6.md)
