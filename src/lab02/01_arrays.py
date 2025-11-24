@@ -1,57 +1,68 @@
-#min_max
+# min_max
 
-#b=[42]
-#c=[-5, -2, -9]
-#d=[]
-#e=[1.5, 2, 2.0, -3.1]
-a=[3, -1, 5, 5, 0]
+# b=[42]
+# c=[-5, -2, -9]
+# d=[]
+# e=[1.5, 2, 2.0, -3.1]
+a = [3, -1, 5, 5, 0]
+
+
 def min_max(nums: list[float | int]) -> tuple[float | int, float | int]:
-    sp=[]
-    if len(nums)==0:
+    sp = []
+    if len(nums) == 0:
         raise ValueError
     sp.append(min(nums))
     sp.append(max(nums))
     return sp
+
+
 print(min_max(a))
-#print(min_max(b))
-#print(min_max(c))
-#print(min_max(e))
-#print(min_max(d))
+# print(min_max(b))
+# print(min_max(c))
+# print(min_max(e))
+# print(min_max(d))
 
-#unique_sorted
+# unique_sorted
 ## set-список->множество->уд.дубликатов
-#b=[]
-#c=[-1, -1, 0, 2, 2]
-#d=[1.0, 1, 2.5, 2.5, 0]
-a=[3, 1, 2, 1, 3]
+# b=[]
+# c=[-1, -1, 0, 2, 2]
+# d=[1.0, 1, 2.5, 2.5, 0]
+a = [3, 1, 2, 1, 3]
+
+
 def unique_sorted(nums: list[float | int]) -> list[float | int]:
-    s=sorted(list(set(nums)))
+    s = sorted(list(set(nums)))
     return s
-print(unique_sorted(a)) 
-#print(unique_sorted(b)) 
-#print(unique_sorted(c)) 
-#print(unique_sorted(d)) 
 
 
-#flatten
+print(unique_sorted(a))
+# print(unique_sorted(b))
+# print(unique_sorted(c))
+# print(unique_sorted(d))
+
+
+# flatten
 
 # b=([1, 2], (3, 4, 5))
 # c=[[1], [], [2, 3]]
 # d=[[1, 2], "ab"]
-a=[[1, 2], [3, 4]]
+a = [[1, 2], [3, 4]]
+
+
 def flatten(mat: list[list | tuple]) -> list:
-    sp=[]
+    sp = []
     for el in mat:
-        if not isinstance(el, (list,tuple)):
+        if not isinstance(el, (list, tuple)):
             raise TypeError
         for i in el:
             sp.append(i)
     return sp
+
+
 print(flatten(a))
 # print(flatten(b))
 # print(flatten(c))
 # print(flatten(d))
-
 
 
 ### Тест-кейсы (минимум)
