@@ -11,17 +11,18 @@
 # LAB 06
 [ссылка](src/lab06/README_6.md)
 # LAB 07
-## test_text
-### программа 
-![alt text](<images/lab07/прога test_text.png>)
-### вывод
-![alt text](<images/lab07/вывод test_text.png>)
+[text](src/lab07/README_7.md)
+# LAB 08
 
-## test_json_csv
-### программа
-![alt text](<images/lab07/прога test_json_csv.png>)
-### вывод
-![alt text](<images/lab07/вывод test_json_csv.png>)
+## прога models
+![alt text](<images/lab08/прога models.png>)
 
-### доп задание - покрытие кода
-![alt text](<images/lab07/покрытие тестов.png>)
+## прога serialize
+![alt text](<images/lab08/прога serialize.png>)
+
+## входные данные
+![alt text](<images/lab08/входные данные.png>)
+
+## выходные данные
+![alt text](<images/lab08/выходные данные.png>)
+
