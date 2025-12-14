@@ -29,7 +29,6 @@ def csv_to_xlsx(csv_path: str, xlsx_path: str) -> None:
     wb = Workbook()
     ws = wb.active
     ws.title = "Sheet1"
-
     for row in rows:
         ws.append(row)
 
