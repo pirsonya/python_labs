@@ -1,7 +1,6 @@
 import csv
 from pathlib import Path
 from datetime import datetime, date
-from statistics import mean
 from typing import List, Dict, Any 
 
 class Student:
@@ -68,13 +67,6 @@ class Group:
         for row in rows:
             if row['fio'] == student.fio:
                 raise ValueError(f"Студент с ФИО '{student.fio}' уже существует")
-        birthdate_value = student.birthdate
-    
-        if isinstance(birthdate_value, date):
-            birthdate_str = birthdate_value.isoformat()
-        else:
-
-            birthdate_str = str(birthdate_value)
         new_row = {
             'fio': student.fio,
             'birthdate': student.birthdate.isoformat(),
@@ -111,7 +103,7 @@ class Group:
             if row['fio'] == fio:
                 for field, value in fields.items():
                     if field in ['fio', 'birthdate', 'group', 'gpa']:
-                        if field == 'birthdate' and hasattr(value, 'isoformat'):
+                        if field == 'birthdate' and isinstance(value, date):
                             row[field] = value.isoformat()
                         elif field == 'gpa':
                             row[field] = str(value)

@@ -11,9 +11,9 @@
 # LAB 06
 [ссылка](src/lab06/README_6.md)
 # LAB 07
-[text](src/lab07/README_7.md)
+[ссылка](src/lab07/README_7.md)
 # LAB 08
-[text](src/lab08/README_8.md)
+[ссылка](src/lab08/README_8.md)
 
 # LAB 09
 ## программа
@@ -27,3 +27,20 @@
 ![alt text](<images/lab09/входные данные .png>)
 ### выполнение тестов
 ![alt text](images/lab09/вывод.png)
+
+# LAB 10
+# программа structures
+![alt text](<images/lab10/прога structures 1.png>)
+![alt text](<images/lab10/прога structures 2.png>)
+![alt text](<images/lab10/прога structures 3.png>)
+
+# программа linked_list
+![alt text](<images/lab10/прога linked_list 1.png>)
+![alt text](<images/lab10/прога linked_list 2.png>)
+![alt text](<images/lab10/прога linked_list 3.png>)
+
+# вывод structures
+![alt text](<images/lab10/вывод structures.png>)
+
+# вывод linked_list
+![alt text](<images/lab10/вывод linked_list.png>)
